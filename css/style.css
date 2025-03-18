@@ -74,3 +74,9 @@ span#burguer {
 span#burguer:hover {
   color: red;
 }
+
+@media (hover: hover) {
+  span#burguer:hover {
+    color: #fff;
+  }
+}
