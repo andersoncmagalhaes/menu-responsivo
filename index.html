@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries - Menu Responsivo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Menu Responsivo</h1>
+      <span
+        class="material-symbols-outlined"
+        id="burguer"
+        onclick="clickMenu()"
+      >
+        menu
+      </span>
+      <nav id="menu">
+        <ul>
+          <li><a href="#">Opção 1</a></li>
+          <li><a href="#">Opção 2</a></li>
+          <li><a href="#">Opção 3</a></li>
+          <li><a href="#">Opção 4</a></li>
+          <li><a href="#">Opção 5</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>Testando Media Queries</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+          natus.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Nisi ex quibusdam tenetur reprehenderit voluptas, libero quaerat
+          architecto earum nulla voluptatibus alias, tempore maxime aperiam rem
+          quo. Veniam eaque optio id. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Quos, natus.lorem
+        </p>
+        <br />
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
+          velit odio praesentium in et iste quibusdam minus alias quo,
+          laboriosam eum tempora voluptate quod ipsam, amet atque numquam
+          dolorum maxime.
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+          corporis minima enim ad magni aspernatur alias illo molestias, esse
+          dolor adipisci sint! Quos reiciendis recusandae velit. Maxime
+          voluptatum quos accusantium.
+        </p>
+      </article>
+    </main>
+    <script>
+      function clickMenu() {
+        if (menu.style.display == "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
