@@ -7,6 +7,7 @@
 
   .material-symbols-outlined#burguer {
     display: none;
+    color: #fff;
   }
   #menu > ul > li {
     display: inline-block;
